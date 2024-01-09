@@ -1,0 +1,17 @@
+class bsc_Message {
+private String bsc_Sender;
+private String bsc_Reciever;  
+private String bsc_Info;
+
+public Message(String s, String r, String i) {
+bsc_Sender = s;
+bsc_Reciever = r;        
+bsc_Info = i;
+}
+
+public getValues() {
+System.out.println("Message sent from: " + bsc_Sender);
+System.out.println("Message will be recieved by: " + bsc_Reciever);
+System.out.println("The message content: " + bsc_Info);
+}
+}
