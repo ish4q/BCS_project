@@ -20,7 +20,7 @@ class main {
 public static void main(String[] args) {
 Message display=new Message();                    //changed object name to display to improve the format
 
-display.setValues("Ishaq", "Ahmed", "Hello, my name is Ishaq.");   //changed Message to setValues 
+display.setValues("Ishaq", "Sulaiman", "Hello, my name is Ishaq.");   //changed Message to setValues 
 display.getValues(); 
 
 }
