@@ -3,7 +3,7 @@ private String bsc_Sender;
 private String bsc_Reciever;  
 private String bsc_Info;
 
-public Message(String s, String r, String i) {
+public setValues(String s, String r, String i) {        //changed Message to setValues to reduce confusion
 bsc_Sender = s;
 bsc_Reciever = r;        
 bsc_Info = i;
@@ -20,7 +20,7 @@ class main {
 public static void main(String[] args) {
 Message m=new Message();
 
-m.Message("Ishaq", "Sulaiman", "Hello, my name is Ishaq.");
+m.setValues("Ishaq", "Sulaiman", "Hello, my name is Ishaq.");   //changed Message to setValues 
 m.getValues(); 
 
 }
