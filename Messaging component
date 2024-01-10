@@ -18,10 +18,10 @@ System.out.println("The message content: " + bsc_Info);
 
 class main {
 public static void main(String[] args) {
-Message m=new Message();
+Message display=new Message();                    //changed object name to display to improve the format
 
-m.setValues("Ishaq", "Sulaiman", "Hello, my name is Ishaq.");   //changed Message to setValues 
-m.getValues(); 
+display.setValues("Ishaq", "Sulaiman", "Hello, my name is Ishaq.");   //changed Message to setValues 
+display.getValues(); 
 
 }
 }
