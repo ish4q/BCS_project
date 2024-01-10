@@ -21,7 +21,7 @@ public static void main(String[] args) {
 Message m=new Message();
 
 m.Message("Ishaq", "Sulaiman", "Hello, my name is Ishaq.");
-m.getValues(); 
+ms.getValues(); 
 
 }
 }
